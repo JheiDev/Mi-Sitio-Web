@@ -16,6 +16,7 @@ html{
     scroll-behavior: smooth;
 }
 /* MENU */
+
 .contenedor-header{
     background: #1e2326;
     position: fixed;
@@ -462,6 +463,28 @@ html{
     font-family: 'Righteous';
     margin-bottom: 25px;
 }
+
+.curriculum .fila .derecha a {
+    margin-top: 50px;
+    font-size: 15px;
+    font-family: 'Righteous';
+    color: #1CB698;
+    margin-bottom: 25px;
+    padding-left: 330px;
+}
+
+.curriculum .fila .izquierda a {
+    margin-top: 50px;
+    font-size: 15px;
+    font-family: 'Righteous';
+    color: #1CB698;
+    margin-bottom: 25px;
+}
+
+.curriculum .fila .col a:hover {
+    color: cadetblue;
+}
+
 .curriculum .fila .izquierda{
     border-right: 2px solid #252A2E;
 }
@@ -478,6 +501,11 @@ html{
     font-size: 20px;
     margin-bottom: 10px;
 }
+
+.curriculum .fila .item h5{
+    font-size: 17px;
+    margin-bottom: 10px;
+}
 .curriculum .fila .item .casa{
     color: #1CB698;
     font-size: 22px;
@@ -491,6 +519,7 @@ html{
 }
 .curriculum .fila .item p{
     line-height: 24px;
+    text-align: justify;
 }
 .curriculum .fila .izq{
     border-right: 2px solid #1CB698;
@@ -549,7 +578,8 @@ html{
     max-width: 1200px;
     margin: auto;
 }
-.portfolio h2{
+
+.portfolio a{
     font-size: 48px;
     font-family: 'Righteous';
     text-align: center;
@@ -562,7 +592,7 @@ html{
 }
 .portfolio .galeria .proyecto {
     position: relative;
-    max-width: 90%;
+    max-width: 48%;
     height: fit-content;
     margin-inline: auto;
     border-radius: 12px;
@@ -607,8 +637,8 @@ html{
 }
 
 .carousel-inner img {
-    width: 600px; 
-    height: auto;
+    width: 100%; 
+    height: 350px;
 }
 
 .carousel-prev, .carousel-next {
@@ -735,10 +765,10 @@ footer{
     position: relative;
     width: 100%;
 }
-footer .redes{
+footer .cita .derechos{
     margin-bottom: 20px;
 }
-footer .redes a{
+footer .cita .derechos p{
     color: #fff;
     display: inline-block;
     text-decoration: none;
@@ -748,7 +778,7 @@ footer .redes a{
     height: 42px;
     line-height: 42px;
     margin: 40px 5px;
-    font-size: 20px;
+    font-size: 25px;
     transition: .3s;
 }
 footer .arriba{

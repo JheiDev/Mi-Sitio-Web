@@ -76,6 +76,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 //función google Traslate
-function googleTranslateElementInit() {
-    new google.translate.TranslateElement({pageLanguage: 'es'}, 'google_translate_element');
-  }
+

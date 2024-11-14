@@ -7,18 +7,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="estilo.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
 
-<!-- Scripts de Swiper -->
-<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
 </head>
 <body>
-<div id="google_translate_element"> 
-
-</div>
+    <div id="google_translate_element"></div>
     <!-- MENU ENCABEZADO -->
     <div class="contenedor-header">        
         <header>
@@ -27,12 +22,12 @@
             </div>
             <nav id="nav">
                 <ul>
-                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
-                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
-                    <li><a href="#curriculum" onclick="seleccionar()">PROYECTOS</a></li>
-                    <li><a href="#portfolio" onclick="seleccionar()">PORTAFOLIO</a></li>
-                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
-                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                    <li><a href="#inicio">INICIO</a></li>
+                    <li><a href="#skills">SKILLS</a></li>
+                    <li><a href="#curriculum">PROYECTOS</a></li>
+                    <li><a href="#portfolio">PORTAFOLIO</a></li>
+                    <li><a href="#sobremi">SOBRE MI</a></li>
+                    
                 </ul>
             </nav>
             <div class="nav-responsive" onclick="mostrarOcultarMenu()">
@@ -46,7 +41,7 @@
         <div class="animated-border">
             <div class="contenido-banner">            
                 <div class="contenedor-img">
-                    <img src="img/Zoro.jpeg" alt="">
+                    <img src="img/image.png" alt="">
                 </div>
                 <h1>JHEICER RODRIGUEZ</h1>
                 <h2>Técnico Informático - Full Stack</h2>
@@ -83,6 +78,10 @@
                         <div class="interes">
                             <i class="fa-brands fa-react"></i>
                             <span>React</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-file-code"></i>
+                            <span>TypeScript</span>
                         </div>
                         <div class="interes">
                             <i class="fa-brands fa-github"></i>
@@ -152,20 +151,34 @@
                     <!--<h3>Educación</h3>-->
 
                     <div class="item izq">
-                        <h4>CyberShop</h4>
+                        <h4>Happy - Pet</h4>
                         <span class="casa">E-commerse</span>
                         <span class="fecha"></span>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <p>Proyecto de E-commerce con Consumo de Servicios
+                            Este proyecto de e-commerce utiliza un frontend desarrollado en React que se comunica con servicios para gestionar operaciones de usuario, catálogo de productos y pagos. Implementa un diseño intuitivo y optimizado para mejorar la experiencia de compra.
+                            <br> <br>
+                            <h5>Tecnologías aplicadas:</h5> React, servicios API, C#, SQLServer.
+                        </p>
+                        <br>
+                        <a href="https://github.com/JheiDev/Happy-Pet-FrontEnd" target="_blank">Ver en GitHub</a>   
                         <div class="conectori">
                             <div class="circuloi"></div>
                         </div>
-                    </div>   
+                    </div>
+
                     
                     <div class="item izq">
                         <h4>Portafolio</h4>
                         <span class="casa">Website</span>
                         <span class="fecha"></span>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <p>
+                            Portafolio web diseñado con HTML, CSS y JavaScript, enfocado en presentar mis habilidades, proyectos y experiencia de manera visual y atractiva. Implementé una interfaz moderna y responsiva, optimizando la navegación y experiencia del usuario en distintas plataformas.
+                            <br> <br>
+                            <h5>Tecnologías aplicadas:</h5> HTML5, CSS3, JavaScript .
+                        </p>
+                        <br>
+                            <a href="https://github.com/JheiDev/E-commerse-Vendify" target="_blank">Ver en GitHub</a>
+                        
                         <div class="conectori">
                             <div class="circuloi"></div>
                         </div>
@@ -175,15 +188,33 @@
 
                 <div class="col derecha">
                     <!--<h3>Patitas</h3>-->
+                    
                     <div class="item der">
-                        <h4>Happy - Pet</h4>
+                        <h4>Vendify</h4>
                         <span class="casa">E-commerse</span>
                         <span class="fecha"></span>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
-                        <div class="conectord">
-                            <div class="circulod"></div>
-                        </div>
-                    </div>
+                        <p>Desarrollé una aplicación de comercio electrónico en C# usando ASP.NET y SQL Server, con AJAX para mejorar la experiencia de usuario y PayPal como método de pago seguro. Este proyecto integra un backend robusto y eficiente con un frontend moderno que permite una navegación fluida y segura.
+                            <br> <br>
+                            <h5>Tecnologías aplicadas:</h5> ASP.NET, SQL Server, AJAX, API de PayPal.</p>
+                            <br>
+                            <a href="https://github.com/JheiDev/E-commerse-Vendify" target="_blank">Ver en GitHub</a>
+                            <div class="conectord">
+                                <div class="circulod"></div>
+                            </div>
+                    </div>   
+
+                    <div class="item der">
+                        <h4></h4>
+                        <span class="casa"></span>
+                        <span class="fecha"></span>
+                        <br> <br> <br> 
+                        <h3>Pronto se estarán agregando más proyectos</h3>
+                            <br>
+                            <!--<a href="" target="_blank">Ver en GitHub</a>-->
+                            <div class="conectord">
+                                <div class="circulod"></div>
+                            </div>
+                    </div>   
                  
                 </div>
 
@@ -224,22 +255,22 @@
 
                 <div class="proyecto">
                     <ul class="carousel-inner">
-                        <img src="img/pet1.png" alt="Imagen 1">
-                        <img src="img/pet2.png" alt="Imagen 2">
-                        <img src="img/pet3.png" alt="Imagen 3">
-                        <img src="img/pet4.png" alt="Imagen 4">
-                        <img src="img/pet5.png" alt="Imagen 5">
-                        <img src="img/pet6.png" alt="Imagen 6">
-                        <img src="img/pet7.png" alt="Imagen 7">
-                        <img src="img/pet8.png" alt="Imagen 8">
-                        <img src="img/pet9.png" alt="Imagen 9">
-                        <img src="img/pet10.png" alt="Imagen 10">
-                        <img src="img/pet11.png" alt="Imagen 11">
-                        <img src="img/pet12.jpeg" alt="Imagen 12">
+                        <img src="img/fy.jpeg" alt="Imagen 1">
+                        <img src="img/fy2.png" alt="Imagen 2">
+                        <img src="img/fy3.jpg" alt="Imagen 3">
+                        <img src="img/fy4.png" alt="Imagen 4">
+                        <img src="img/fy5.png" alt="Imagen 5">
+                        <img src="img/fy6.png" alt="Imagen 6">
+                        <img src="img/fy7.png" alt="Imagen 7">
+                        <img src="img/fy8.png" alt="Imagen 8">
+                        <img src="img/fy9.png" alt="Imagen 9">
+                        <img src="img/fy10.png" alt="Imagen 10">
+                        <img src="img/fy11.png" alt="Imagen 11">
+                        <img src="img/fy12.png" alt="Imagen 12">
                     </ul>                     
                     
                     <div class="overlay">
-                        <h2>Happy - Pet</h2>
+                        <h2>Vendify </h2>
                         <h3>E-commerse</h3>
                     </div>
 
@@ -252,42 +283,28 @@
     </section>
    
     
-
     <!-- SECCION SOBRE MI -->
     <section id="sobremi" class="sobremi">
         <div class="contenido-seccion">
             <h2>Sobre Mí</h2>
-            <p><span>Hola, soy Jheicer Rodríguez.</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam unde soluta minima necessitatibus, voluptas consectetur vero officiis quas, explicabo deleniti repellendus aliquid debitis maiores numquam voluptate reprehenderit in delectus dolores.</p>
+            <p><span>Hola, soy Jheicer Rodríguez.</span>
+Técnico en Computación e Informática con habilidades de desarrollo full stack. Apasionado por crear soluciones eficientes y funcionales en la web. Experiencia en HTML, CSS, JavaScript y frameworks modernos para el frontend, así como en tecnologías backend para construir aplicaciones robustas. Busco nuevas oportunidades para crecer y aplicar mis conocimientos.</p>
 
             <div class="fila">
                 <!-- datos personales -->
                 <div class="col">
-                    <h3>Datos Personales</h3>
+                    <h3>Contacto</h3>
                     <ul>
-                        <li>
-                            <strong>Cumpleaños</strong>
-                            08/07/2004
-                        </li>
+                        
                         <li>
                             <strong>Teléfono</strong>
-                            972387424
+                            990443919
                         </li>
                         <li>
                             <strong>Email</strong>
                             jheicer.ro@gmail.com
-                        </li>
-                        <li>
-                            <strong>Website</strong>
-                            www.example.com
-                        </li>
-                        <li>
-                            <strong>Dirección</strong>
-                            mi casa
-                        </li>
-                        <li>
-                            <strong>Cargo</strong>
-                            <span>Busco Chamba</span>
-                        </li>
+                        </li>                       
+                                  
                     </ul>
                 </div>
 
@@ -336,11 +353,11 @@
     </section>
 
     <!-- SECCION CONTACTO -->
-    <section id="contacto" class="contacto">
+   <!--<section id="contacto" class="contacto">
         <div class="contenido-seccion">
             <h2>CONTACTO</h2>
             <div class="fila">
-                <!-- Formulario -->
+                 Formulario 
                 <div class="col1">
                     <input type="text" placeholder="Tú Nombre">
                     <input type="text" placeholder="Número telefónico">
@@ -352,7 +369,7 @@
                         <span class="overlay"></span>
                     </button>
                 </div>
-                <!-- Mapa -->
+                <!-- Mapa 
                 <!--<div class="col">
                     <img src="img/ubicacion.png" alt="">
                     <div class="info">
@@ -371,22 +388,30 @@
                             </li>
                         </ul>
                     </div>
-                </div>-->
+                </div>
             </div>
         </div>
-    </section>
+    </section>-->
 
     <!-- footer -->
     <footer>
         <a href="#inicio" class="arriba">
             <i class="fa-solid fa-angles-up"></i>
         </a>
-        <div class="redes">
-            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        
+        <div id="google_translate_element"></div>
+
+        <div class="cita">
+            <p>"La tecnología es mejor cuando reúne a las personas" - Matt Mullenweg</p>
         </div>
+
+        <div class="derechos">
+            <p>&copy; 2024 Jheicer Rodríguez. Todos los derechos reservados.</p>
+        </div>
+                
     </footer>
 
     <script src="script.js"></script>
-
+    
 </body>
 </html>
