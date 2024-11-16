@@ -165,6 +165,11 @@ html{
     max-width: 1100px;
     margin: auto;
 }
+
+.sobremi .contenido-seccion a {
+    text-decoration: none;
+}
+
 .sobremi h2{
     font-size: 48px;
     font-family: 'Righteous';
@@ -269,6 +274,7 @@ html{
     color: #fff;
     position: relative;
     z-index: 10;
+   
 }
 .sobremi button .overlay{
     position: absolute;
